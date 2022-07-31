@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(322deg, rgba(113,174,33,1) 29%, rgba(28,28,28,1) 29%, rgba(28,28,28,1) 40%, rgba(113,174,33,1) 40%, rgba(113,174,33,1) 48%, rgba(28,28,28,1) 48%, rgba(28,28,28,1) 92%, rgba(113,174,33,1) 92%, rgba(113,174,33,1) 100%);
+}
+
+#feedback-form {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+}
+
+  #feedback-form * {
+    box-sizing: border-box;
+}
+  
+  #feedback-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+  }
+  
+  #feedback-form input {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #feedback-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
